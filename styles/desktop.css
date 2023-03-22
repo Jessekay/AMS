@@ -1,0 +1,54 @@
+@media (min-width: 768px) {
+    .container {
+      padding: 1rem 10%;
+    }
+
+    .desktop-only {
+        display: flex;
+      }
+    
+      .mobile {
+        display: none;
+      }
+    
+      nav {
+        position: relative;
+        box-shadow: 0 7px 9px 0 rgba(0, 0, 0, 0.2);
+        height: 98px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      }
+    
+      .top-nav {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        background: #272a31;
+      }
+    
+      .user-login a {
+        color: #fff;
+        font-size: 0.7rem;
+        margin-left: 1rem;
+      }
+    
+      .social-icons img {
+        float: right;
+        margin-right: 1rem;
+        width: 3.5%;
+      }
+    
+      .brand img {
+        position: relative;
+        width: 36%;
+        cursor: pointer;
+        z-index: 500;
+      }
+}
