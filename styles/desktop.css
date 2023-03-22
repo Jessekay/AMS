@@ -366,5 +366,48 @@
         padding: 2rem;
         margin-bottom: 1.5rem;
       }
+
+      .about-box p {
+        font-size: 1rem;
+        line-height: 1.7rem;
+      }
+    
+      .info p {
+        font-size: 1rem;
+        line-height: 1.7rem;
+      }
+    
+      .reveal {
+        margin: 0 10%;
+        height: 40vh;
+      }
+    
+      .reveal h2 {
+        font-size: 1.5rem;
+      }
+    
+      .reveal .new-logo img {
+        border: solid 1px rgb(174, 174, 174);
+        padding: 1.6rem;
+        margin-top: -13px;
+        margin-bottom: 200px;
+        width: 34%;
+      }
+    
+      .previous-content h2 {
+        font-size: 1.5rem;
+        margin-top: 190px;
+      }
+    
+      .previous-content p {
+        margin-top: 10px;
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+      }
+    
+      .event-area {
+        margin-bottom: 25px;
+        display: flex;
+      }    
 }
 
