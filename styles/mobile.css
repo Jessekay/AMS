@@ -267,3 +267,109 @@ body {
     height: 40vh;
     text-align: center;
   }
+
+  .previous-content p {
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .abt-footer p {
+    font-size: 0.5rem;
+    color: #272a31;
+  }
+  
+  .abt-copyright p {
+    color: #fff;
+    flex-basis: 50%;
+  }
+  
+  .program-item h3 p {
+    font-size: 1.5rem;
+  }
+  
+  .program-item .top {
+    flex-basis: 55%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .program-item .box-content {
+    margin-left: -20px;
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    flex-basis: 70%;
+  }
+  
+  .register-btn {
+    margin: 20px auto;
+    display: flex;
+    width: 280px;
+    text-align: center;
+    background: #ed5342;
+    padding: 20px 40px;
+    font-weight: bold;
+  }
+  
+  .register-btn:hover {
+    background: #272a31;
+    box-shadow: 0 8 10px rgba(rgb(237, 83, 66));
+    border: solid 0.1rem #fff;
+  }
+  
+  .speakers {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 280px;
+  }
+  
+  .speakers h2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #272a31;
+    font-size: 1rem;
+  }
+  
+  .speaker-area {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+  
+  .speakers-detail {
+    display: flex;
+  }
+  
+  .speakers-detail h3 {
+    font-size: 1rem;
+  }
+  
+  .speakers-detail .image {
+    width: 25%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .speakers-detail .image:hover {
+    transform: scale(1.3);
+  }
+  
+  .speakers-detail .col-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 20px;
+    width: 50%;
+  }
+  
+  .speakers-detail .col-2 span {
+    width: 20px;
+    height: 2px;
+    display: flex;
+    background: #ed5342;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
