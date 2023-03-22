@@ -123,3 +123,147 @@ body {
   .main-menu a:hover {
     color: #ed5342;
   }
+
+  .program-item .top img {
+    width: 30%;
+    margin-right: 0.5rem;
+  }
+  
+  .program-item {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 14%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.154);
+  }
+  
+  .program-item:hover {
+    transform: scale(1);
+    border: solid 0.1rem #fff;
+  }
+  
+  .partners-content .partners-logos img {
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  
+  .reveal .new-logo img {
+    margin-top: 39px;
+    margin-bottom: 87px;
+    width: 54%;
+  }
+  
+  #close img {
+    width: 5%;
+  }
+  
+  .menu-links {
+    display: none;
+  }
+  
+  .headline-section {
+    background-image: url(../images/mobile-bkg-fa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
+  
+  .title {
+    margin-top: 3rem;
+  }
+  /* stylelint-disable */
+  h1 {
+    font-size: 2.6rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    background-image: 
+        linear-gradient(45deg,
+        rgba(235, 71, 53, 0.939),
+        rgba(252, 44, 7, 0.6)),
+        url(../images/comp.png);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: contain;
+    background-position-y: 10px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #ed5342;
+  }
+  
+  .box {
+    margin-top: 1rem;
+    border: solid 0.2rem #fff;
+    padding: 0.5rem;
+    background: rgb(247, 247, 248);
+  }
+  
+  .date {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .date h4 {
+    font-size: 1rem;
+    color: #272a31;
+  }
+  
+  .date .venue {
+    margin-top: 0.5rem;
+  }
+  
+  .program {
+    background-color: #272a31;
+    background-size: 10px 10px;
+    background-repeat: repeat;
+    background-image: url(../images/vector3.png);
+  }
+  
+  .program h2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .line {
+    width: 40px;
+    height: 2px;
+    display: flex;
+    background: #ed5342;
+    position: absolute;
+    margin-top: -29px;
+    left: 45%;
+  }
+  
+  .program-item h3 {
+    color: #ed5342;
+    font-size: 0.95rem;
+  }
+  
+  .footer p {
+    font-size: 0.7rem;
+  }
+  
+  .about-box p {
+    line-height: 1.3rem;
+  }
+  
+  .reveal {
+    background: #fff;
+    height: 40vh;
+    text-align: center;
+  }
