@@ -287,5 +287,84 @@
       .col-2 p {
         font-size: 1rem;
       }
+
+      .partners {
+        width: 100%;
+        height: 40vh;
+        margin-top: 300px;
+        padding-top: 0.3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+    
+      .partners .partners-logos img {
+        width: 10%;
+        margin-left: 30px;
+        margin-top: 20px;
+      }
+    
+      .partners-content h2 {
+        margin-top: 40px;
+        font-size: 1.8rem;
+        color: #fff;
+      }
+    
+      .partners-content .line {
+        width: 70px;
+        left: 48%;
+      }
+    
+      .partners-logos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .footer {
+        width: 100%;
+        height: auto;
+      }
+    
+      .footer p {
+        font-size: 1rem;
+      }
+    
+      .footer-details {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    /* stylelint-disable */
+        .common {
+          flex-basis: 50%;
+        }
+      
+        .copyright {
+          flex-basis: 60%;
+        }
+    
+        .about-section {
+        background-image: url(../images/abt-back.png);
+        height: 100vh;
+      }
+    
+      .about-title {
+        padding-top: 8rem;
+      }
+    
+      .about-title h1 {
+        font-size: 4rem;
+        line-height: 3.8rem;
+        margin-bottom: 2rem;
+      }
+    
+      .about-box {
+        margin: 0 10%;
+        border: solid 0.2rem #fff;
+        padding: 2rem;
+        margin-bottom: 1.5rem;
+      }
 }
 
