@@ -10,173 +10,173 @@
 }
 
 body {
-    font-family: lato, sans-serif;
-  }
-  
-  .container {
-    padding: 1rem 8%;
-  }
-  
-  .container-2 {
-    padding-left: 8%;
-    padding-right: 8%;
-  }
-  
-  a {
-    text-decoration: none;
-    font-family: lato, sans-serif;
-  }
-  
-  nav {
-    display: flex;
-    align-items: center;
-    background: #fff;
-    width: 100%;
-    height: 90px;
-  }
-  
-  .copyright {
-    flex-basis: 50%;
-  }
-  
-  p {
-    font-size: 0.8rem;
-  }
-  
-  .copyright p {
-    color: #272a31;
-    font-size: 0.8em;
-  }
-  
-  .common img {
-    width: 60%;
-  }
-  
-  .abt-common img {
-    margin-left: 20px;
-    width: 60%;
-  }
-  
-  .event-pic img {
-    width: 100%;
-  }
-  
-  .main-menu img {
-    width: 5%;
-    float: right;
-    margin-top: 25px;
-  }
-  
-  .mobile-menu img {
-    width: 20%;
-  }
-  
-  .brand {
-    margin-left: -35px;
-  }
-  
-  .brand img {
-    width: 61%;
-    cursor: pointer;
-  }
-  
-  nav .logo img {
-    width: 61%;
-  }
-  
-  .desktop-only {
-    display: none;
-  }
-  
-  .mobile {
-    display: flex;
-  }
-  
-  .top-nav {
-    display: none;
-  }
-  
-  .main-menu {
-    display: none;
-    position: absolute;
-    background: #272a31;
-    opacity: 90%;
-    padding: 35px;
-    width: 100%;
-    height: 100vh;
-    left: 0;
-    top: 0;
-  }
-  
-  .main-menu ul li {
-    margin-top: 30px;
-  }
-  
-  .register-btn a {
-    color: #fff;
-  }
-  
-  .main-menu ul li a {
-    color: #fff;
-  }
-  
-  .main-menu a:hover {
-    color: #ed5342;
-  }
+  font-family: lato, sans-serif;
+}
 
-  .program-item .top img {
-    width: 30%;
-    margin-right: 0.5rem;
-  }
-  
-  .program-item {
-    margin-bottom: 10px;
-    width: 100%;
-    height: 14%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0.5rem;
-    color: #fff;
-    background: rgba(255, 255, 255, 0.154);
-  }
-  
-  .program-item:hover {
-    transform: scale(1);
-    border: solid 0.1rem #fff;
-  }
-  
-  .partners-content .partners-logos img {
-    width: 20%;
-    margin-left: 30px;
-    margin-top: 10px;
-  }
-  
-  .reveal .new-logo img {
-    margin-top: 39px;
-    margin-bottom: 87px;
-    width: 54%;
-  }
-  
-  #close img {
-    width: 5%;
-  }
-  
-  .menu-links {
-    display: none;
-  }
-  
-  .headline-section {
-    background-image: url(../images/mobile-bkg-fa.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: auto;
-  }
-  
-  .title {
-    margin-top: 3rem;
-  }
+.container {
+  padding: 1rem 8%;
+}
+
+.container-2 {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+a {
+  text-decoration: none;
+  font-family: lato, sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  width: 100%;
+  height: 90px;
+}
+
+.copyright {
+  flex-basis: 50%;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+.copyright p {
+  color: #272a31;
+  font-size: 0.8em;
+}
+
+.common img {
+  width: 60%;
+}
+
+.abt-common img {
+  margin-left: 20px;
+  width: 60%;
+}
+
+.event-pic img {
+  width: 100%;
+}
+
+.main-menu img {
+  width: 5%;
+  float: right;
+  margin-top: 25px;
+}
+
+.mobile-menu img {
+  width: 20%;
+}
+
+.brand {
+  margin-left: -35px;
+}
+
+.brand img {
+  width: 61%;
+  cursor: pointer;
+}
+
+nav .logo img {
+  width: 61%;
+}
+
+.desktop-only {
+  display: none;
+}
+
+.mobile {
+  display: flex;
+}
+
+.top-nav {
+  display: none;
+}
+
+.main-menu {
+  display: none;
+  position: absolute;
+  background: #272a31;
+  opacity: 90%;
+  padding: 35px;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+}
+
+.main-menu ul li {
+  margin-top: 30px;
+}
+
+.register-btn a {
+  color: #fff;
+}
+
+.main-menu ul li a {
+  color: #fff;
+}
+
+.main-menu a:hover {
+  color: #ed5342;
+}
+
+.program-item .top img {
+  width: 30%;
+  margin-right: 0.5rem;
+}
+
+.program-item {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 14%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.5rem;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.154);
+}
+
+.program-item:hover {
+  transform: scale(1);
+  border: solid 0.1rem #fff;
+}
+
+.partners-content .partners-logos img {
+  width: 20%;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.reveal .new-logo img {
+  margin-top: 39px;
+  margin-bottom: 87px;
+  width: 54%;
+}
+
+#close img {
+  width: 5%;
+}
+
+.menu-links {
+  display: none;
+}
+
+.headline-section {
+  background-image: url(../images/mobile-bkg-fa.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  margin-top: 3rem;
+}
   /* stylelint-disable */
   h1 {
     font-size: 2.6rem;
