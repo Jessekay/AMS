@@ -435,6 +435,10 @@ nav .logo img {
   display: none;
 }
 
+.hideme {
+  display: none;
+}
+
 .speakers-card {
   display: flex;
   flex-direction: row;
