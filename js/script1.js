@@ -4,53 +4,53 @@ const modal2 = document.querySelector('.brack2');
 const modal3 = document.querySelector('.brack3');
 const speakers = [
   {
-    
-            photo: './images/speaker_01.png',
-            name: 'Hellen john',
-            title: 'CE0 of African movies Festival',
-            description:
+
+    photo: './images/speaker_01.png',
+    name: 'Hellen john',
+    title: 'CE0 of African movies Festival',
+    description:
               'Founder of the African movies festival, with 15 years experience in film making',
-          },
-          {
-            photo: './images/speaker_02.png',
-            name: 'Bazu Bazu',
-            title: 'CE0 of African movies Festival',
-            description:
+  },
+  {
+    photo: './images/speaker_02.png',
+    name: 'Bazu Bazu',
+    title: 'CE0 of African movies Festival',
+    description:
               'Founder of the African movies festival, with 15 years experience in film making',
-          },
-          {
-            photo: './images/speaker_03.png',
-            name: 'Kevin Mzito',
-            title: 'CE0 of African movies Festival',
-            description:
+  },
+  {
+    photo: './images/speaker_03.png',
+    name: 'Kevin Mzito',
+    title: 'CE0 of African movies Festival',
+    description:
               'Founder of the African movies festival, with 15 years experience in film making',
-          },
-          {
-            photo: './images/speaker_04.png',
-            name: 'Felix Mtongoi',
-            title: 'CE0 of African movies Festival',
-            description:
+  },
+  {
+    photo: './images/speaker_04.png',
+    name: 'Felix Mtongoi',
+    title: 'CE0 of African movies Festival',
+    description:
               'Founder of the African movies festival, with 15 years experience in film making',
-          },
-        
-          {
-            photo: './images/speaker_05.png',
-            name: 'Linda Henrys',
-            title: 'CE0 of African movies Festival',
-            description:
+  },
+
+  {
+    photo: './images/speaker_05.png',
+    name: 'Linda Henrys',
+    title: 'CE0 of African movies Festival',
+    description:
               'Founder of the African movies festival, with 15 years experience in film making',
-          },
-          {
-            photo: './images/speaker_06.png',
-            name: 'Shruti Shah',
-            title: 'CE0 of African movies Festival',
-            description:
+  },
+  {
+    photo: './images/speaker_06.png',
+    name: 'Shruti Shah',
+    title: 'CE0 of African movies Festival',
+    description:
               'Founder of the African movies festival, with 15 years experience in film making',
   },
 ];
 
 let num = 0;
-for (let i = num; i < 2; i++){
+for (let i = num; i < 2; i += 1) {
   modal1.innerHTML += `
   <div class="speakers-card show-${i}">
   <img src="${speakers[i].photo}" alt="speakers-image">
@@ -63,7 +63,7 @@ for (let i = num; i < 2; i++){
   `;
   num = i;
 }
-for (let i = num +1; i < speakers.length - 2; i += 1){
+for (let i = num + 1; i < speakers.length - 2; i += 1) {
   modal2.innerHTML += `
   <div class="speakers-card">
   <img src="${speakers[i].photo}" alt="speakers-image">
@@ -77,7 +77,7 @@ for (let i = num +1; i < speakers.length - 2; i += 1){
   num = i;
 }
 
-for (let i = num +1; i < speakers.length; i += 1){
+for (let i = num + 1; i < speakers.length; i += 1) {
   modal3.innerHTML += `
   <div class="speakers-card">
   <img src="${speakers[i].photo}" alt="speakers-image">
@@ -96,9 +96,6 @@ button.addEventListener('click', () => {
   button.classList.add('hideme');
   button.classList.remove('btn-speakers');
 });
-
-
-
 
 // menu
 

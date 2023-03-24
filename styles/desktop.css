@@ -1,7 +1,7 @@
 @media (min-width: 768px) {
   .container {
     padding: 1rem 10%;
-    height: 12vh;
+    height: 15vh;
   }
 
   .desktop-only {
@@ -207,6 +207,11 @@
     width: 40%;
   }
 
+  .speakers-card img {
+    width: 40%;
+    height: 30vh;
+  }
+
   .program-item .top img {
     width: 80%;
   }
@@ -247,51 +252,6 @@
     margin-bottom: 20px;
   }
 
-  /* .register-btn {
-    display: flex;
-    background: #ed5342;
-    padding: 20px 40px;
-  }
-
-  .speakers h2 {
-    margin-top: 60px;
-    font-size: 1.8rem;
-    color: #272a31;
-  }
-
-  .speakers .line {
-    width: 70px;
-    left: 49%;
-  }
-
-  .speaker-area {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 40px;
-    grid-row-gap: 35px;
-    margin-top: 90px;
-  }
-
-  .col-2 {
-    width: 50%;
-  }
-
-  .speakers-detail {
-    gap: 10px;
-  }
-
-  .speakers-detail .image {
-    width: 20%;
-  }
-
-  .speakers-detail .col-2 h3 {
-    font-size: 1rem;
-  }
-
-  .col-2 p {
-    font-size: 1rem;
-  } */
   .speakers {
     padding: 50px 100px;
   }
@@ -331,11 +291,6 @@
     flex-direction: row;
   }
 
-  .speakers-card img {
-    width: 40%;
-    height: 30vh;
-  }
-
   .speakers-details {
     width: 100%;
     padding-left: 15px;
@@ -359,6 +314,10 @@
 
   .btn-speakers {
     display: none;
+  }
+
+  #footer {
+    display: block;
   }
 
   .partners {
@@ -500,12 +459,12 @@
         padding: 20px;
         width: 100%;
         height: auto;
-        background: #21252c;
+        background: white;
       }
     
       .abt-footer p {
         font-size: 0.8rem;
-        color: #fff;
+        color: black;
       }
     }
     
